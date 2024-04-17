@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+  background-size: cover;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.navigation {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 1rem 1.5rem 0;
+}
+
+.navigation .link {
+  color: var(--black);
+  font-weight: bold;
+}
+
+.nav-pills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation .nav-brand {
+  font-family: "Comforter", cursive;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  font-size: 2.8rem;
+  flex-grow: 1;
+}
+
+.navigation .link-active {
+  font-weight: bolder;
+  background-color: var(--grey);
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.hero-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding-top: 1rem;
+}
+
+.hero-description {
+  color: var(--light-raisin-black);
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-btn a {
+  text-decoration: none;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+}
